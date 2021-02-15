@@ -141,17 +141,17 @@ characteristics.sort(function(a, b) {
 });
 
 var charSlogan = {
-  b0: "Humanity",
-  b1: "Fatherland",
-  c0: "Equality",
-  e0: "Ecology",
-  j0: "Justice",
-  j1: "Order",
-  m1: "Liberty",
-  p0: "Socialism",
-  p1: "Work",
-  s1: "Family",
-  t0: "Revolution"
+  b0: "인류",
+  b1: "조국",
+  c0: "평등",
+  e0: "생태",
+  j0: "정의",
+  j1: "질서",
+  m1: "자유",
+  p0: "사회주의",
+  p1: "노동",
+  s1: "가족",
+  t0: "혁명"
 };
 
 function findFlagColors() {
@@ -421,29 +421,29 @@ if (!bonusEnabled) {
 }
 
 var images = {
-  sprites: "/images/flag_sprites.png",
-  c0: "/images/constructivism_small.png",
-  c1: "/images/essentialism_small.png",
-  j0: "/images/justice_soft_small.png",
-  j1: "/images/justice_hard_small.png",
-  s0: "/images/progressism_small.png",
-  s1: "/images/conservatism_small.png",
-  b0: "/images/internationalism_small.png",
-  b1: "/images/nationalism_small.png",
-  p0: "/images/communism_small.png",
-  p1: "/images/capitalism_small.png",
-  m0: "/images/regulation_small.png",
-  m1: "/images/laissezfaire_small.png",
-  e0: "/images/ecology_small.png",
-  e1: "/images/productivism_small.png",
-  t0: "/images/revolution_small.png",
-  t1: "/images/reformism_small.png",
-  anar: "/images/anarchism_small.png",
-  prag: "/images/pragmatism_small.png",
-  femi: "/images/feminism_small.png",
-  vega: "/images/veganism_small.png",
-  mona: "/images/monarchism_small.png",
-  reli: "/images/religion_small.png"
+  sprites: "../images/flag_sprites.png",
+  c0: "../images/constructivism_small.png",
+  c1: "../images/essentialism_small.png",
+  j0: "../images/justice_soft_small.png",
+  j1: "../images/justice_hard_small.png",
+  s0: "../images/progressism_small.png",
+  s1: "../images/conservatism_small.png",
+  b0: "../images/internationalism_small.png",
+  b1: "../images/nationalism_small.png",
+  p0: "../images/communism_small.png",
+  p1: "../images/capitalism_small.png",
+  m0: "../images/regulation_small.png",
+  m1: "../images/laissezfaire_small.png",
+  e0: "../images/ecology_small.png",
+  e1: "../images/productivism_small.png",
+  t0: "../images/revolution_small.png",
+  t1: "../images/reformism_small.png",
+  anar: "../images/anarchism_small.png",
+  prag: "../images/pragmatism_small.png",
+  femi: "../images/feminism_small.png",
+  vega: "../images/veganism_small.png",
+  mona: "../images/monarchism_small.png",
+  reli: "../images/religion_small.png"
 };
 
 var numImageLoaded = 0;
@@ -610,12 +610,12 @@ function onImageLoaded() {
       ctx.fillStyle = "#ffffff";
       ctx.font = "bold 25px sans-serif";
       ctx.textAlign = "left";
-      ctx.fillText("P️olitiScales, DBHQ Edition", 10, 30);
+      ctx.fillText("P️olitiScales, DBHQ 에디션 (한국어판)", 10, 30);
 
       ctx.fillStyle = "#ffffff";
       ctx.font = "bold 15px sans-serif";
       ctx.textAlign = "right";
-      ctx.fillText("DBHQ.github.io", rPreview.width - 10, 27);
+      ctx.fillText("g523.github.io/dbhq-ko", rPreview.width - 10, 27);
 
       yPos += 48;
 
@@ -656,57 +656,57 @@ function onImageLoaded() {
           key: "c",
           color0: "#a425b6",
           color1: "#34b634",
-          name0: "Constructivism",
-          name1: "Essentialism"
+          name0: "구성주의",
+          name1: "본질주의"
         },
         {
           key: "j",
           color0: "#14bee1",
           color1: "#e6cc27",
-          name0: "Rehabilitative justice",
-          name1: "Punitive justice"
+          name0: "교화주의",
+          name1: "엄벌주의"
         },
         {
           key: "s",
           color0: "#850083",
           color1: "#970000",
-          name0: "Progressive",
-          name1: "Conservative"
+          name0: "보수주의",
+          name1: "진보주의"
         },
         {
           key: "b",
           color0: "#3e6ffd",
           color1: "#ff8500",
-          name0: "Internationalism",
-          name1: "Nationalism"
+          name0: "국제주의",
+          name1: "민족주의"
         },
         {
           key: "p",
           color0: "#cc0000",
           color1: "#ffb800",
-          name0: "Communism",
-          name1: "Capitalism"
+          name0: "공산주의",
+          name1: "자본주의"
         },
         {
           key: "m",
           color0: "#269B32",
           color1: "#6608C0",
-          name0: "Regulation",
-          name1: "Laissez-faire"
+          name0: "규제주의",
+          name1: "자유방임주의"
         },
         {
           key: "e",
           color0: "#a0e90d",
           color1: "#4deae9",
-          name0: "Ecology",
-          name1: "Production"
+          name0: "생태주의",
+          name1: "개발주의"
         },
         {
           key: "t",
           color0: "#eb1a66",
           color1: "#0ee4c8",
-          name0: "Revolution",
-          name1: "Reform"
+          name0: "혁명주의",
+          name1: "개혁주의"
         }
       ];
 

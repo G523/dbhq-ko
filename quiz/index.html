@@ -4,57 +4,57 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>PolitiScales - Quiz</title>
+    <title>PolitiScales - 질문</title>
 
     <meta
       name="description"
-      content="Welcome to the PolitiScale, the online political test. You will be confronted to a series of affirmations and for each of them you will have to click on the button which corresponds the most to your opinion."
+      content="온라인 정치 성향 테스트인 PolitiScale에 오신 것을 환영합니다. 여러분은 여러 가지 질문을 받게 될 것이고, 그때마다 여러분은 의견에 따라 버튼을 누르셔야 합니다."
     />
-    <link rel="stylesheet" href="/style.css" type="text/css" media="screen" />
-    <link rel="shortcut icon" href="/images/favicon.ico" />
-    <meta property="og:url" content="https://dbhq.github.io/" />
-    <meta property="og:title" content="PolitiScales, DBHQ Edition" />
-    <meta property="og:locale" content="en_US" />
+    <link rel="stylesheet" href="../style.css" type="text/css" media="screen" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+    <meta property="og:url" content="https://g523.github.io/dbhq-ko/" />
+    <meta property="og:title" content="PolitiScales, DBHQ 에디션 한국어판" />
+    <meta property="og:locale" content="ko_KR" />
     <meta
       property="og:description"
-      content="Welcome to the PolitiScale, the online political test. You will be confronted to a series of affirmations and for each of them you will have to click on the button which corresponds the most to your opinion."
+      content="온라인 정치 성향 테스트인 PolitiScale에 오신 것을 환영합니다. 여러분은 여러 가지 질문을 받게 될 것이고, 그때마다 여러분은 의견에 따라 버튼을 누르셔야 합니다."
     />
-    <meta property="og:image" content="/images/facebook-preview.jpg" />
+    <meta property="og:image" content="../images/facebook-preview.jpg" />
   </head>
 
   <body>
     <header>
       <div id="header">
-        <h1><a href="/">PolitiScales</a></h1>
+        <h1><a href="../">PolitiScales</a></h1>
       </div>
     </header>
 
     <div id="content">
       <div id="mainFrame">
-        <h2 id="question-number">Loading...</h2>
+        <h2 id="question-number">로딩 중...</h2>
         <div class="questionBox"><p id="question-text"></p></div>
         <div class="navButtons questionButtons">
           <button onclick="next_question(1)" class="strong-agree">
-            Absolutely agree
+            완전 동의
           </button>
           <button onclick="next_question(2/3)" class="agree">
-            Somewhat agree
+            조금 동의
           </button>
           <button onclick="next_question(0)" class="neutral">
-            Neutral or hesitant
+            중립 / 모르겠다 
           </button>
           <button onclick="next_question(-2/3)" class="disagree">
-            Rather disagree
+            조금 동의
           </button>
           <button onclick="next_question(-1)" class="strong-disagree">
-            Absolutely disagree
+            완전 비동의
           </button>
 
           <a href="#" class="button" onclick="prev_question()" id="back_button">
-            Return to the previous question
+            이전 질문으로
           </a>
-          <a class="button" href="/" id="back_button_off">
-            Go back to home page
+          <a class="button" href="../" id="back_button_off">
+            홈으로 돌아가기
           </a>
         </div>
       </div>
@@ -62,12 +62,10 @@
 
     <div id="footer">
       <p>
-        This quiz is a slightly modified version of
-        <a href="https://www.politiscales.net/">PolitiScales</a>, which is based
-        on <a href="https://8values.github.io/">8values</a>.
+        이것은 <a href="https://8values.github.io/">8values</a>를 기반으로 한 <a href="https://www.politiscales.net/">PolitiScales</a>의 약간 변경된 버전입니다.
       </p>
     </div>
 
-    <script src="/quiz.js"></script>
+    <script src="../quiz.js"></script>
   </body>
 </html>

@@ -1,5 +1,3 @@
-"use strict";
-
 var questions = [
   // Constructivism/Essentialism
   {
@@ -257,7 +255,7 @@ var questions = [
   },
   // Internationalism/Nationalism
   {
-    question: "Borders should eventually be abolished.",
+    question: "국경은 결국 사라질 것이다.",
     answer: 0,
     valuesYes: [
       {
@@ -375,7 +373,7 @@ var questions = [
     ]
   },
   {
-    question: "Citizens should take priority over foreigners.",
+    question: "일반 시민들이 외국인보다 우선되어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -392,7 +390,7 @@ var questions = [
   },
   {
     question:
-      "The values of my country are superior to those of other countries.",
+      "우리 나라의 가치는 다른나라보다 더 값지다.",
     answer: 0,
     valuesYes: [
       {
@@ -408,7 +406,7 @@ var questions = [
     ]
   },
   {
-    question: "Multiculturalism is a threat to our society.",
+    question: "다문화주의는 우리 사회에 위협이 된다.",
     answer: 0,
     valuesYes: [
       {
@@ -424,7 +422,7 @@ var questions = [
     ]
   },
   {
-    question: "A good citizen is a patriot.",
+    question: "애국자가 좋은 시민이다.",
     answer: 0,
     valuesYes: [
       {
@@ -458,7 +456,7 @@ var questions = [
   },
   {
     question:
-      "It is necessary to teach history in order to create a sense of belonging to the nation.",
+      "국가에 대한 소속감을 가지게 하기 위해 역사를 가르치는 것은 필요하다.",
     answer: 0,
     valuesYes: [
       {
@@ -475,7 +473,7 @@ var questions = [
   },
   {
     question:
-      "Research produced by my country should not be available to other countries.",
+      "우리 나라가 연구한 것은 다른 나라에서 사용할 수 없어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -525,7 +523,7 @@ var questions = [
     ]
   },
   {
-    question: "It is important that health should stay a public matter.",
+    question: "건강이 공공의 문제로 남는 것은 중요하다.",
     answer: 0,
     valuesYes: [
       {
@@ -541,7 +539,7 @@ var questions = [
     ]
   },
   {
-    question: "Energy and transport structures should be a public matter.",
+    question: "에너지와 교통은 공공의 문제가 되어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -557,7 +555,7 @@ var questions = [
     ]
   },
   {
-    question: "Patents should not exist.",
+    question: "특허는 없어져야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -590,7 +588,7 @@ var questions = [
     ]
   },
   {
-    question: "The labor market enslaves workers.",
+    question: "노동 시장은 노동자들을 노예로 만든다.",
     answer: 0,
     valuesYes: [
       {
@@ -606,7 +604,7 @@ var questions = [
     ]
   },
   {
-    question: "Looking for one’s own profit is healthy for the economy.",
+    question: "사익추구는 경제를 건강하게 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -640,7 +638,7 @@ var questions = [
   },
   {
     question:
-      "The fact that some schools and universities are private is not a problem.",
+      "일부 학교와 대학이 사립이라는 사실은 문제가 되지 않는다.",
     answer: 0,
     valuesYes: [
       {
@@ -673,7 +671,7 @@ var questions = [
     ]
   },
   {
-    question: "It is acceptable that there are rich and poor people.",
+    question: "빈부의 격차가 있는 것은 용납된다.",
     answer: 0,
     valuesYes: [
       {
@@ -705,7 +703,7 @@ var questions = [
     ]
   },
   {
-    question: "Banks should remain private.",
+    question: "은행은 민영화로 남아 있어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -738,7 +736,7 @@ var questions = [
     ]
   },
   {
-    question: "The age of retirement should be lowered.",
+    question: "퇴직 연령을 낮춰야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -838,7 +836,7 @@ var questions = [
     ]
   },
   {
-    question: "Market economy is optimal when it is not regulated.",
+    question: "시장경제는 규제를 하지 않을 때 가장 좋다.",
     answer: 0,
     valuesYes: [
       {
@@ -956,7 +954,7 @@ var questions = [
   },
   // Progressive/Conservative
   {
-    question: "Traditions should be questioned.",
+    question: "전통에는 의문을 제기해야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -989,7 +987,7 @@ var questions = [
     ]
   },
   {
-    question: "Marriage should be abolished.",
+    question: "결혼은 사라져야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1167,7 +1165,7 @@ var questions = [
     ]
   },
   {
-    question: "The main goal of a couple is to make at least one child.",
+    question: "부부의 목적은 적어도 한 명의 아이를 만드는 것이다.",
     answer: 0,
     valuesYes: [
       {
@@ -1218,7 +1216,7 @@ var questions = [
     ]
   },
   {
-    question: "GMOs should be forbidden outside research and medical purposes.",
+    question: "GMO를 의료/연구 목적 외에는 금지해야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1234,7 +1232,7 @@ var questions = [
     ]
   },
   {
-    question: "We must fight against global warming.",
+    question: "우리는 지구온난화와 싸워야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1386,7 +1384,7 @@ var questions = [
   },
   {
     question:
-      "Nuclear fission, when well maintained, is a good source of energy.",
+      "핵분열은 잘 유지될 시 좋은 에너지원이다.",
     answer: 0,
     valuesYes: [
       {
@@ -1402,7 +1400,7 @@ var questions = [
     ]
   },
   {
-    question: "Exploitation of fossil fuels is necessary.",
+    question: "화석 연료를 채굴하는 것은 필요하다.",
     answer: 0,
     valuesYes: [
       {
@@ -1436,7 +1434,7 @@ var questions = [
   },
   // Rehabilitative Justice/Punitive Justice
   {
-    question: "Prisons should no longer exist.",
+    question: "감옥은 더 이상 존재하지 않아야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1503,7 +1501,7 @@ var questions = [
     ]
   },
   {
-    question: "Conditions of life in jail should be greatly improved.",
+    question: "감옥의 생활조건은 크게 개선되어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1536,7 +1534,7 @@ var questions = [
     ]
   },
   {
-    question: "The right to be anonymous on Internet should be guaranteed.",
+    question: "인터넷에서 익명의 권리가 보장되어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1569,7 +1567,7 @@ var questions = [
     ]
   },
   {
-    question: "The police should be armed.",
+    question: "경찰은 무장해야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1652,7 +1650,7 @@ var questions = [
   },
   // Revolution/Reform
   {
-    question: "Mass strike is a good way to acquire new rights.",
+    question: "대량 파업은 새로운 권리를 획득하기 위한 좋은 수단이다.",
     answer: 0,
     valuesYes: [
       {
@@ -1668,7 +1666,7 @@ var questions = [
     ]
   },
   {
-    question: "Armed struggle in a country is sometimes necessary.",
+    question: "국가 내 무장투쟁은 때때로 필요하다.",
     answer: 0,
     valuesYes: [
       {
@@ -1684,7 +1682,7 @@ var questions = [
     ]
   },
   {
-    question: "Insurrection is necessary to deeply change society.",
+    question: "폭동은 사회를 크게 변화시키기 위해 필요하다.",
     answer: 0,
     valuesYes: [
       {
@@ -1782,7 +1780,7 @@ var questions = [
     ]
   },
   {
-    question: "Revolutions will always end up in a bad way.",
+    question: "혁명은 항상 좋지 못하게 끝날 것이다.",
     answer: 0,
     valuesYes: [
       {
@@ -1894,7 +1892,7 @@ var questions = [
     valuesNo: []
   },
   {
-    question: "A good policy is a pragmatic policy without ideology.",
+    question: "좋은 정책은 이데올로기에 구애받지 않는 실용적인 정책이다.",
     answer: 0,
     valuesYes: [
       {
@@ -1917,7 +1915,7 @@ var questions = [
     valuesNo: []
   },
   {
-    question: "Humans should neither eat nor exploit animals.",
+    question: "사람은 동물을 먹거나 착취해서는 안 된다.",
     answer: 0,
     valuesYes: [
       {
@@ -1928,7 +1926,7 @@ var questions = [
     valuesNo: []
   },
   {
-    question: "The State should be abolished.",
+    question: "국가는 폐지되어야 한다.",
     answer: 0,
     valuesYes: [
       {
@@ -1963,14 +1961,14 @@ function init_question() {
   document.getElementById("question-text").innerHTML = questions[qn].question;
   document.getElementById(
     "question-number"
-  ).innerHTML = "Question %num% of %sum%"
+  ).innerHTML = "%sum%개 질문 중 %num%개를 답변하셨습니다"
     .replace("%num%", qn + 1)
     .replace("%sum%", questions.length);
   if (qn == 0) {
     document.getElementById("back_button").style.display = "none";
-    document.getElementById("back_button_off").style.display = "block";
+    document.getElementById("back_button_off").style.display = "";
   } else {
-    document.getElementById("back_button").style.display = "block";
+    document.getElementById("back_button").style.display = "";
     document.getElementById("back_button_off").style.display = "none";
   }
 }
@@ -2042,7 +2040,7 @@ function results() {
     }
   }
   url = window.btoa(url);
-  url = "/results/?" + url;
+  url = "../results/?" + url;
 
   location.href = url;
 }
