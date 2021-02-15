@@ -174,6 +174,6 @@ Conversely the ones in favor of the **Punitive Justice** consider that the role 
 -   **Missionary**: My religion must be spread as widely as possible.
 -   **Conspiratorial**: It is a small group that consciously and secretly controls the world.
 -   **실용주의자**: 좋은 정책은 이데올로기에 구애받지 않는 실용적인 정책이다.
--   **Monarchist**: We need to establish a monarchy to federate the people and preserve our sovereignty.
+-   **군주주의자**: We need to establish a monarchy to federate the people and preserve our sovereignty.
 -   **채식주의자**: 사람은 동물을 먹거나 착취해서는 안 된다.
 -   **아나키스트**: 국가는 폐지되어야 한다.
